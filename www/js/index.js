@@ -141,7 +141,13 @@ var app = {
         showAppError(html)
     },
     checkForUpdate: function() {
-        chcp.fetchUpdate(app.fetchUpdateCallback);
+        var options = {
+            'config-file': 'https://www.mymind-creative.com/demo/indohalo/chcp.json',
+            'request-headers': {
+              'foo': 'bar'
+            }
+          };
+        chcp.fetchUpdate(app.fetchUpdateCallback,options);
       },
     
     fetchUpdateCallback: function(error, data) {
