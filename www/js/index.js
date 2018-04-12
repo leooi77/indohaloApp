@@ -147,7 +147,7 @@ var app = {
     fetchUpdateCallback: function(error, data) {
         if (error) {
             showAppError('Failed to load the update with error code: ' + error.code);
-          //console.log(error.description);
+             showAppError(error.description);
         } else {
             showAppError('Update is loaded');
         }
