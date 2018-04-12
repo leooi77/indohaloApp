@@ -22,7 +22,7 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <chcp>
-        <config-file url="https://firebasestorage.googleapis.com/v0/b/reactnative-auth-613b9.appspot.com/o/chcp.json" />
+        <config-file url="https://www.mymind-creative.com/demo/indohalo/chcp.json" />
         <native-interface version="1" />
     </chcp>
     <preference name="loadUrlTimeoutValue" value="60000" />
