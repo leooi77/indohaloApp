@@ -72,6 +72,10 @@
     "hash": "448c34a56d699c29117adc64c43affeb"
   },
   {
+    "file": "images/logo-m.png",
+    "hash": "13fccdd172a2d549f84b434087cc1cc3"
+  },
+  {
     "file": "images/refresh.png",
     "hash": "1cd74d2aee0fa8ba8a9c27a9ab9e6147"
   },
@@ -81,7 +85,7 @@
   },
   {
     "file": "index.html",
-    "hash": "d3eb64ec9bbf2e8bfb0e4b41092f04f4"
+    "hash": "4dd7079e5238e67dc0aa7da528ce9c43"
   },
   {
     "file": "js/api.js",
@@ -105,7 +109,7 @@
   },
   {
     "file": "js/index.js",
-    "hash": "c5ab1bfe5d13dbce2e4933dc7caed33e"
+    "hash": "1ac95f0d24806d0756fe8f8dd972e0c3"
   },
   {
     "file": "js/jquery-1.12.4.js",
@@ -121,7 +125,7 @@
   },
   {
     "file": "js/main.js",
-    "hash": "7b4f7fcfd54b421de9de78e62323f7eb"
+    "hash": "5e1534e84b3a29ddbae64b87051c6bba"
   },
   {
     "file": "js/moment.js",

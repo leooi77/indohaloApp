@@ -43,7 +43,8 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-        document.getElementById('myFetchBtn').addEventListener('click', app.checkForUpdate);
+       // document.getElementById('myFetchBtn').addEventListener('click', app.checkForUpdate);
+        app.checkForUpdate()
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {

@@ -85,6 +85,6 @@ if (window.localStorage.getItem("globalMath") === null) {
     window.localStorage.setItem( 'globalMath', JSON.stringify(LocalData.allData));
 }*/
 function showAppError(html){
-    $(".udpateMsg").append("<br>"+html)
-    showNotification('danger',html)
+    //$(".udpateMsg").append("<br>"+html)
+    //showNotification('danger',html)
 }
