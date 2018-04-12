@@ -85,4 +85,5 @@ if (window.localStorage.getItem("globalMath") === null) {
 }*/
 function showAppError(html){
     $(".udpateMsg").append("<br>"+html)
+    showNotification('danger',html)
 }
