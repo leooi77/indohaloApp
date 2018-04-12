@@ -43,6 +43,7 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        document.getElementById('myFetchBtn').addEventListener('click', app.checkForUpdate);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -139,6 +140,17 @@ var app = {
         }
         showAppError(html)
     },
+    checkForUpdate: function() {
+        chcp.fetchUpdate(app.fetchUpdateCallback);
+      },
     
+    fetchUpdateCallback: function(error, data) {
+        if (error) {
+            showAppError('Failed to load the update with error code: ' + error.code);
+          //console.log(error.description);
+        } else {
+            showAppError('Update is loaded');
+        }
+      }
     
 };
