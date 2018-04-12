@@ -41,7 +41,7 @@
   },
   {
     "file": "css/main.css",
-    "hash": "57daddb32e2d62edd9d7fb86b0161c8d"
+    "hash": "8106a973857ef86295b2ebe83d916e9a"
   },
   {
     "file": "css/marquee-prefixed.css",
@@ -81,7 +81,7 @@
   },
   {
     "file": "index.html",
-    "hash": "f0e35e341651cd21544ce61bd8717f35"
+    "hash": "d3eb64ec9bbf2e8bfb0e4b41092f04f4"
   },
   {
     "file": "js/api.js",
@@ -105,7 +105,7 @@
   },
   {
     "file": "js/index.js",
-    "hash": "851e99a0bf401631a29586c06af244ed"
+    "hash": "d7f5c6e361ed6d51c0a38c3b9f53f71d"
   },
   {
     "file": "js/jquery-1.12.4.js",
@@ -121,7 +121,7 @@
   },
   {
     "file": "js/main.js",
-    "hash": "4aff408b301c18452640e092351017d6"
+    "hash": "17185bc04928b363ab5aebae3d995597"
   },
   {
     "file": "js/moment.js",
