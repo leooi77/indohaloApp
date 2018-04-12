@@ -156,7 +156,17 @@ var app = {
              showAppError(error.description);
         } else {
             showAppError('Update is loaded');
+            chcp.installUpdate(app.installationCallback);
+        }
+      },
+      installationCallback: function(error) {
+        if (error) {
+          showAppError('Failed to install the update with error code: ' + error.code);
+          showAppError(error.description);
+        } else {
+          showAppError('Update installed!');
         }
       }
+
     
 };
