@@ -74,6 +74,7 @@ function retry(){
     $("#loginWrapper").show()
     $(".refreshBtn").hide()
     callApi('ts',getTimeStampSuccess,{})
+    app.checkForUpdate()
 }
 /*
 if (window.localStorage.getItem("globalMath") === null) {

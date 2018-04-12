@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.mymindcreative.indohalo" version="1.0.9" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.mymindcreative.indohalo" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Indohalo</name>
     <description>
         Indohalo App
@@ -121,7 +121,7 @@
         <allow-intent href="itms-apps:*" />
     </platform>
     <chcp>
-        <config-file url="https://firebasestorage.googleapis.com/v0/b/reactnative-auth-613b9.appspot.com/o/chcp.json?alt=media&token=d15ef72f-18f0-4b6c-9e05-5538ba82abc6" />
+        <config-file url="https://firebasestorage.googleapis.com/v0/b/reactnative-auth-613b9.appspot.com/o/chcp.json" />
          <native-interface version="1" />
     </chcp>
     
