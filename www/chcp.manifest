@@ -109,7 +109,7 @@
   },
   {
     "file": "js/index.js",
-    "hash": "87f96ec8e30ea69ec247bb5e57a46453"
+    "hash": "e774475098945ed1faa931e9f985ffb9"
   },
   {
     "file": "js/jquery-1.12.4.js",
@@ -125,7 +125,7 @@
   },
   {
     "file": "js/main.js",
-    "hash": "08e4b715c97b5dff406e4ecde50b933f"
+    "hash": "5e1534e84b3a29ddbae64b87051c6bba"
   },
   {
     "file": "js/moment.js",
@@ -410,9 +410,5 @@
   {
     "file": "spec/lib/jasmine-1.2.0/MIT.LICENSE",
     "hash": "ee4bc64f30f3e9d1aed570562d8713e7"
-  },
-  {
-    "file": "xindex.html",
-    "hash": "b9b68f1ee2d569465de5c11ea936299c"
   }
 ]

@@ -159,6 +159,11 @@ var app = {
             showAppError('Update is loaded');
             chcp.installUpdate(app.installationCallback);
         }
+        var progress = parseFloat(data.progress);
+        $("#udpateMsg").html(progress)
+        if (progress == 1.0) {
+            $("#udpateMsg").html('')
+        }
       },
       installationCallback: function(error) {
         if (error) {
